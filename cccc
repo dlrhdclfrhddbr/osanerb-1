@@ -1,0 +1,17 @@
+<script>
+function printHell(){
+   document.write("Hi~"; document.write("ㅋㅋ")
+   document.write("im")
+   document.write("kim")
+   document.write("j<br>")
+}
+function add(a,b){
+ c=a+b
+return c
+
+}
+for(k=0;k<10;k++){
+  r=add(k+k)
+  document.write(r+"<br>")
+}
+</script>
