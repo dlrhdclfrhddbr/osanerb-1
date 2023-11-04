@@ -1,0 +1,17 @@
+<html><head>
+<title>if</title>
+</head><body>
+<script>
+a = prompt("정수")
+b = prompt("정수")
+aa = Number(a)
+bb = Number(b)
+document.write("input data is "+aa+"and"+bb)
+document.write("<br>")
+if (aa>bb){
+  document.write(aa +"is 큰 수 입니다.")
+}
+else{
+     document.write(bb + "is 큰 수 입니다.")
+}
+</head><body>
